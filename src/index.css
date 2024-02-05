@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+  font-family: 'Avenir-Light';
+  src: local('Avenir-Light'), url(./fonts/Avenir-Light.woff2) format('woff2');
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  
+}
+/*align-items: center;*/
+body {
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  overflow-x: hidden;
+}
+
+main {
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #000000;
+}
+
+.home {
+  scroll-behavior: smooth;
+}
+
+
+
+.vid {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 6rem;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -100;
+  min-height: 60vh;
+}
+
+.gallery ul {
+  list-style: none;
+  position: absolute;
+  top: 260%;
+  left: 47.5%;
+  padding-bottom: 30px;
+}
+.gallery img {
+  width: 800px
+}
+.picture1 {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+.picture2 {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+.picture3 {
+  position: absolute;
+  top: 130%;
+  left: 35%;
+}
+.picture4 {
+  position: absolute;
+  top: 190%;
+  left: 35%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+}
+
+.row img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+.pic1 {
+  object-fit: cover;
+  object-position: 0px 00px;
+}
+.video {
+  margin-top: 6rem;
+}
+/*margin-left: auto;
+  margin-right: auto;
+  display: block*/
+.policy {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mission,
+.video {
+  min-height: 548px;
+  
+
+}
+.table {
+  min-height: 60vh;
+  background-color: #000000;
+}
+.mission p1 {
+  font-family: "Avenir-Light";
+  font-size: 50px;
+  line-height: 76px;
+  color: black;
+}
+
+.missionText {
+  position: relative;
+  top: 125px;
+  left: 37%;
+  max-width: 750px;
+}
+
+.about {
+  min-height: 500px;
+}
+
+.aboutTitle {
+  font-family: "Avenir-Light";
+  font-size: 50px;
+  color: black;
+}
+
+.aboutTitle {
+  position: relative;
+  top: 150px;
+  left: 37%;
+}
+
+.aboutText p1 {
+  font-family: "Avenir-Light";
+  font-size: 16px;
+  color: black;
+}
+
+/*
+  #2F2E2E
+*/
+
+.aboutText {
+  position: relative;
+  max-width: 780px;
+  line-height: 29px;
+  top: 188px;
+  left: 37%;
+}
+
+.gallery {
+  margin-left: 57%;
+}
+
+/*
+  
+*/
+
+.gallerylink {
+  margin-top: 200px;
+  height: 1000px;
+  width: 1200px;
+  
+}
+/*
+  margin-top: 6rem;
+  background-color: rgb(240, 0, 0);
+*/
+
+.gallerybutton:hover,
+.gallerybutton:focus,
+.a:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  border-radius: 15px;
+  filter: grayscale(10%); 
+}
+/*
+  raise button
+  box-shadow: 0 2.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  --color: #ffa260;
+  --hover: adjust-hue(#ffa260, 45deg);
+  background-color: #ffa260;
+*/
+
+a {
+  color: rgb(0, 60, 255);
+}
+
+.gallerybutton img {
+  position: relative;
+  left: -280px;
+  top: 39px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.gallerybutton {
+  position: relative;
+  height: 250px;
+  width: 1200px;
+  background: none;
+  border: none;
+  border-color: black;
+  transition: 0.25s;
+}
+
+/*
+  
+*/
+
+.linkTitle {
+  font-family: "Avenir-Light";
+  font-size: 43px;
+  color: #2F2E2E
+}
+
+.linkTitle {
+  position: relative;
+  top: -120px;
+  left: 99px;
+}
+
+.linkText {
+  font-family: "Avenir-Light";
+  font-size: 16px;
+  color: black;
+}
+
+.linkText {
+  position: relative;
+  width: 500px;
+  top: -107px;
+  left: 570px;
+  line-height: 29px;
+  text-align: left;
+}
+
+/*
+  box shadow not showing up
+  position: relative;
+  z-index: 10;
+  box shadow
+  color: var(--color);
+*/
